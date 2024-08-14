@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --button-bg-color: #0098E9;
+    --button-radius: 999px;
+}
+
+.button-bg-color {
+    background-color: var(--button-bg-color) !important;
+}

@@ -1,11 +1,12 @@
 <template>
   <div>
+    <Header />
     <NuxtPage />
   </div>
 </template>
 
 <script setup>
-// Any setup code for the layout
+
 </script>
 
 <style scoped>

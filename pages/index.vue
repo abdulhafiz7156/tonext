@@ -1,10 +1,6 @@
 <template>
-  <NuxtLayout>
     <div>
-      <p>fal</p>
     </div>
-
-  </NuxtLayout>
 </template>
 
 <script setup>
