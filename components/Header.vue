@@ -55,8 +55,6 @@
         </button>
       </div>
     </div>
-
-    <!-- Mobile Menu -->
     <div
         :style="{ top: isMenuOpen ? '72px' : '-100%', height: '100vh' }"
         class="fixed left-0 right-0 z-50 bg-custom-menu-burger p-4 md:hidden transition-all duration-1000 ease-in-out"
@@ -164,6 +162,7 @@ function formatLanguage(language) {
   border-radius: var(--button-radius);
   height: 40px;
   padding: 10px 22px;
+  color: #fff;
 }
 
 .header__buttons button img {
@@ -185,6 +184,7 @@ function formatLanguage(language) {
   width: 90px;
   display: flex;
   justify-content: space-between;
+  color: #fff;
 }
 
 .language-option {
@@ -236,5 +236,9 @@ function formatLanguage(language) {
 .header__close-button {
   background: #70758E0F;
   border-radius: 50%;
+}
+
+ul li {
+  color: #fff;
 }
 </style>

@@ -5,8 +5,15 @@
 :root {
     --button-bg-color: #0098E9;
     --button-radius: 999px;
+    --text-color: #12172D;
 }
 
 .button-bg-color {
     background-color: var(--button-bg-color) !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
 }

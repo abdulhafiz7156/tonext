@@ -1,6 +1,7 @@
 <template>
   <div>
     <Header />
+    <FirstBlock />
     <NuxtPage />
   </div>
 </template>
