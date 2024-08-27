@@ -2,12 +2,15 @@
   <div>
     <Header />
     <FirstBlock />
+    <SecondBlock />
+    <Calculator />
     <NuxtPage />
   </div>
 </template>
 
-<script setup>
-
+<script>
+export default {
+}
 </script>
 
 <style scoped>
